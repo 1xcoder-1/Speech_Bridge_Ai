@@ -1,4 +1,4 @@
-# LinguaSpeak
+# Speech Bridge
 
 A voice translation tool built with Next.js that allows users to speak into the microphone, translate the spoken text to another language, and playback the translation.
 
@@ -18,7 +18,7 @@ A voice translation tool built with Next.js that allows users to speak into the 
 - Next.js 14
 - TypeScript
 - Tailwind CSS
-- OpenAI API
+- Genmini API
 - Web Speech API
 
 ## Getting Started
@@ -30,7 +30,7 @@ A voice translation tool built with Next.js that allows users to speak into the 
 
 2. Create a `.env` file with your OpenAI API key:
    ```env
-   NEXT_PUBLIC_API_KEY=your-openai-api-key
+   NEXT_PUBLIC_API_KEY=your-Gemini-api-key
    ```
 
 3. Run the development server:
